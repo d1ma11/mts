@@ -5,10 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import hw.dto.Product;
 
-class ProductTest {
-    ProductTest() {
-    }
-
+public class ProductTest {
     @Test
     void testBuyWithDiscountProduct1() {
         Product product1 = new Product(2, 15.2, 0.75);
