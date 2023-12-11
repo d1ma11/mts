@@ -3,9 +3,15 @@ package hw.dto;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+/**
+ * Сущность, которая описывает объект "Товар"
+ */
 public class Product {
+    //Количество товара
     private int count;
+    //Цена одного товара
     private double price;
+    //Скидка на данный товар
     private double discount;
 
     public Product(int count, double price, double discount) {
